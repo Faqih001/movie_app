@@ -9,6 +9,7 @@ import routes from "./src/routes/index.js";
 // App Config 
 const app = express();
 
+// Middlewares 
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
