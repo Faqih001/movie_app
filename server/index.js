@@ -6,6 +6,7 @@ import mongoose from "mongoose";
 import "dotenv/config";
 import routes from "./src/routes/index.js";
 
+// App Config 
 const app = express();
 
 app.use(cors());
