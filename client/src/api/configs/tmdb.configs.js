@@ -3,6 +3,7 @@ const mediaType = {
   tv: "tv"
 };
 
+// Popular: Get the list of popular movies or TV shows on TMDb.
 const mediaCategory = {
   popular: "popular",
   top_rated: "top_rated"
