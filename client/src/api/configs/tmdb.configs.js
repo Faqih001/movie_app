@@ -18,6 +18,7 @@ const posterPath = (imgEndpoint) => `https://image.tmdb.org/t/p/w500${imgEndpoin
 // youtube path: https://www.youtube.com/embed/${videoId}?controls=0
 const youtubePath = (videoId) => `https://www.youtube.com/embed/${videoId}?controls=0`;
 
+// Export all configs
 const tmdbConfigs = {
   mediaType,
   mediaCategory,
