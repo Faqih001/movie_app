@@ -15,6 +15,7 @@ const backdropPath = (imgEndpoint) => `https://image.tmdb.org/t/p/original${imgE
 // poster path: https://image.tmdb.org/t/p/w500
 const posterPath = (imgEndpoint) => `https://image.tmdb.org/t/p/w500${imgEndpoint}`;
 
+// youtube path: https://www.youtube.com/embed/${videoId}?controls=0
 const youtubePath = (videoId) => `https://www.youtube.com/embed/${videoId}?controls=0`;
 
 const tmdbConfigs = {
