@@ -9,6 +9,7 @@ const mediaCategory = {
   top_rated: "top_rated"
 };
 
+// back drop path: https://image.tmdb.org/t/p/original
 const backdropPath = (imgEndpoint) => `https://image.tmdb.org/t/p/original${imgEndpoint}`;
 
 const posterPath = (imgEndpoint) => `https://image.tmdb.org/t/p/w500${imgEndpoint}`;
