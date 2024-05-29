@@ -12,6 +12,7 @@ const mediaCategory = {
 // back drop path: https://image.tmdb.org/t/p/original
 const backdropPath = (imgEndpoint) => `https://image.tmdb.org/t/p/original${imgEndpoint}`;
 
+// poster path: https://image.tmdb.org/t/p/w500
 const posterPath = (imgEndpoint) => `https://image.tmdb.org/t/p/w500${imgEndpoint}`;
 
 const youtubePath = (videoId) => `https://www.youtube.com/embed/${videoId}?controls=0`;
