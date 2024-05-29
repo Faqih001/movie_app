@@ -4,6 +4,7 @@ import queryString from "query-string";
 // baseURL should be the URL of the server where the API is hosted 
 const baseURL = "https://moonflix-api.vercel.app/api/v1/";
 
+// Create a new axios instance with a custom config.
 const publicClient = axios.create({
   baseURL,
   paramsSerializer: {
