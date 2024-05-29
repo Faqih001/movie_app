@@ -12,6 +12,7 @@ const publicClient = axios.create({
   }
 });
 
+// Add a request interceptor to add the Authorization header to all requests.
 publicClient.interceptors.request.use(async config => {
   return {
     ...config,
